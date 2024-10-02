@@ -1,6 +1,8 @@
 <ul>
     <li><a href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li style="float:right"><a class="active" href="#about">About</a></li>
+    <li><a href="{% url 'registerPage' %}">RegisterPage</a></li>
+    <li><a href="{% url 'loginPage' %}">LoginPage</a></li>
+    <li><a href="{% url 'jobFeedPage' %}">JobFeed Page</a></li>
+
+    <li style="float:right"><a class="active" href="{% url 'logoutPage' %}">Logout</a></li>
   </ul>
